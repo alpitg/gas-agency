@@ -1,0 +1,148 @@
+<section class="inventory-status-main">
+
+  <div class="container-fluid">
+    <!-- <h5>Inventory </h5> -->
+
+
+    <div class="row">
+
+      <div class="col-sm-9">
+        <div class="card shadow shadow-lg--hover border-0 min-vh-40">
+          <div class="card-body">
+
+            <div class="row">
+              <div class="col-sm-4">
+                <p-chart type="bar" [data]="dataBarChart"></p-chart>
+              </div>
+              <div class="col-sm-4">
+                <p-chart type="line" [data]="dataLineChart"></p-chart>
+              </div>
+              <div class="col-sm-4">
+                <p-chart type="doughnut" [data]="data" height="30vh"></p-chart>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-4">
+                <h3>Awesome features</h3>
+                <p>The kit comes with three pre-built pages to help you get started faster. You can change
+                  the text and images and you're good to go.
+                </p>
+              </div>
+              <div class="col-sm-4">
+                <span>Overview of Latest Month </span>
+                <h3>$ 34,345.50</h3>
+                <span>Current month sale</span>
+                <h3>8200</h3>
+
+              </div>
+              <div class="col-sm-4">
+                <!-- <ul class="list-unstyled">
+                  <li>
+                    ddf
+                  </li>
+                  <li>
+                    ddf
+                  </li>
+                </ul> -->
+
+                <ul class="list-unstyled">
+                  <li class="py-2">
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <div class="badge badge-circle badge-success mr-3">
+                          <i class="ni ni-settings-gear-65"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <!-- <h6 class="mb-0"></h6> -->
+                        <a routerLink="app-update-inventory">
+                          Update Inventory
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <div class="badge badge-circle badge-success mr-3">
+                          <i class="ni ni-html5"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <h6 class="mb-0">Amazing page examples</h6>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <div class="badge badge-circle badge-success mr-3">
+                          <i class="ni ni-satisfied"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <h6 class="mb-0">Super friendly support team</h6>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+
+          <div class="col-sm-12">
+
+            <div class="row">
+
+              <div class="col-sm-3 pb-4" *ngFor="let groupItem of currentStockList | keyvalue;">
+                <div class="card shadow shadow-lg--hover border-0 min-vh-40">
+                  <div class="card-body">
+
+                    <div class="row">
+                      <div class="col">
+                        <h6 class="card-title text-uppercase text-muted mb-0">{{groupItem.key}}</h6>
+                        <!-- <span class="h2 font-weight-bold mb-0">{{groupItem.key}}</span> -->
+                      </div>
+                    </div>
+                    <ng-container *ngFor="let item of groupItem.value">
+                      <p class="mt-3 mb-0 text-muted text-sm">
+                        <span class="text-nowrap mr-2"><i class="fa fa-check-circle"></i> {{item.weight}}</span>
+                        <span class="mr-2"> - </span>
+                        <span [class]="item.stock < 10 ? 'text-warning' : 'text-success'">{{item.stock}}</span>
+                      </p>
+                    </ng-container>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card shadow shadow-lg--hover border-0 min-vh-40">
+          <div class="card-body">
+            <div echarts [options]="options" class="demo-chart"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,60 @@
+{
+  "lpgCategory": [
+    {
+      "id": 1,
+      "category": "domestic",
+      "weight": "12kg",
+      "description": "12 kg gas",
+      "amount": 600
+    },
+    {
+      "id": 2,
+      "category": "domestic",
+      "weight": "15kg",
+      "description": "15 kg gas",
+      "amount": 500
+    },
+    {
+      "id": 3,
+      "category": "domestic",
+      "weight": "17kg",
+      "description": "17 kg gas",
+      "amount": 700
+    },
+    {
+      "id": 4,
+      "category": "domestic",
+      "weight": "21kg",
+      "description": "21 kg gas",
+      "amount": 800
+    },
+    {
+      "id": 5,
+      "category": "commercial",
+      "weight": "12kg",
+      "description": "12 kg gas",
+      "amount": 800
+    },
+    {
+      "id": 6,
+      "category": "commercial",
+      "weight": "15kg",
+      "description": "15 kg gas",
+      "amount": 900
+    },
+    {
+      "id": 7,
+      "category": "commercial",
+      "weight": "17kg",
+      "description": "17 kg gas",
+      "amount": 950
+    },
+    {
+      "id": 8,
+      "category": "commercial",
+      "weight": "21kg",
+      "description": "21 kg gas",
+      "amount": 990
+    }
+  ]
+}

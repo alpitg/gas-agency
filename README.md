@@ -1,6 +1,20 @@
-# GasAgency
+# npm used -
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
+### bootstrap 
+npm i popper.js -s
+
+### charts (echarts / ngx-echarts)
+npm install echarts -S
+npm install ngx-echarts -S
+npm install resize-observer-polyfill -D
+
+### primeNG
+npm i primeng -s
+npm i primeicons -s
+
+
+
+
 
 ## Development server
 

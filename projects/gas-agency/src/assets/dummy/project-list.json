@@ -1,0 +1,64 @@
+[
+    {
+        "ProjectName": "Panchi's construction and design studio",
+        "Description": "We are completely committed to every project we undertake and all are properly managed to keep within budget and on schedule.",
+        "InitialBudget": 500000,
+        "MailAddress": "panchiconstructionstudio@gmail.com",
+        "WorkType": "Layout",
+        "Tags": [
+            "On site",
+            "Paper work",
+            "layout",
+            "Planning"
+        ]
+    },
+    {
+        "ProjectName": "Design studio",
+        "Description": "We are completely committed to every project we undertake and all are properly managed to keep within budget and on schedule.",
+        "InitialBudget": 8900000,
+        "MailAddress": "studio@gmail.com",
+        "WorkType": "Layout",
+        "Tags": [
+            "On site",
+            "Paper work"
+        ]
+    },
+    {
+        "ProjectName": "Bros Construction Ltd.",
+        "Description": "We are completely committed to every project we undertake and all are properly managed to keep within budget and on schedule.",
+        "InitialBudget": 500000,
+        "MailAddress": "brosconstructionltd@gmail.com",
+        "WorkType": "Construction",
+        "Tags": [
+            "Paper work",
+            "layout",
+            "Planning"
+        ]
+    },
+    {
+        "ProjectName": "Subhash construction and sons",
+        "Description": "We are completely committed to every project we undertake and all are properly managed to keep within budget and on schedule.",
+        "InitialBudget": 500000,
+        "MailAddress": "subhashconstruction@gmail.com",
+        "WorkType": "Layout",
+        "Tags": [
+            "On site",
+            "Paper work",
+            "layout",
+            "Planning"
+        ]
+    },
+    {
+        "ProjectName": "Officers club site",
+        "Description": "We are completely committed to every project we undertake and all are properly managed to keep within budget and on schedule.",
+        "InitialBudget": 980000,
+        "MailAddress": "officers@gmail.com",
+        "WorkType": "Layout",
+        "Tags": [
+            "On site",
+            "Paper work",
+            "layout",
+            "Planning"
+        ]
+    }
+]
